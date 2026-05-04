@@ -3190,37 +3190,156 @@
       border-radius: 24px;
     }
 
-    .expense-share-card.preview .expense-share-cover { padding: 25px 26px 22px; }
-    .expense-share-card.preview .expense-share-cover::after { right: 18px; bottom: 8px; font-size: 42px; }
-    .expense-share-card.preview .expense-share-kicker { padding: 5px 8px; font-size: 10px; }
-    .expense-share-card.preview .expense-share-title { margin-top: 12px; font-size: 27px; }
-    .expense-share-card.preview .expense-share-subtitle { margin-top: 8px; font-size: 10px; }
-    .expense-share-card.preview .expense-share-body { padding: 17px 20px 21px; gap: 12px; }
-    .expense-share-card.preview .expense-share-section-title { font-size: 10px; }
-    .expense-share-card.preview .expense-share-pill { padding: 4px 7px; font-size: 8px; }
-    .expense-share-card.preview .expense-share-hero-total { gap: 4px; padding: 11px 12px; border-radius: 13px; }
-    .expense-share-card.preview .expense-share-hero-total .label { font-size: 8px; }
-    .expense-share-card.preview .expense-share-hero-total .value { font-size: 24px; }
-    .expense-share-card.preview .expense-share-mini-grid { gap: 7px; }
-    .expense-share-card.preview .expense-share-mini { padding: 8px; border-radius: 11px; min-height: 46px; }
-    .expense-share-card.preview .expense-share-mini .label { font-size: 7px; }
-    .expense-share-card.preview .expense-share-mini .value { margin-top: 3px; font-size: 10px; }
-    .expense-share-card.preview .expense-share-chart-grid { grid-template-columns: 100px 1fr; gap: 8px; padding: 9px; border-radius: 12px; }
-    .expense-share-card.preview .expense-share-pie { width: 82px; height: 82px; box-shadow: inset 0 0 0 6px rgba(255, 250, 242, .8), 0 5px 12px rgba(65, 50, 35, .08); }
-    .expense-share-card.preview .expense-share-pie::after { inset: 24px; }
-    .expense-share-card.preview .expense-share-bars { gap: 5px; }
-    .expense-share-card.preview .expense-share-bar-label { font-size: 8px; }
-    .expense-share-card.preview .expense-share-track { height: 5px; }
-    .expense-share-card.preview .expense-share-day-grid { gap: 6px; }
-    .expense-share-card.preview .expense-share-day-card { padding: 8px; border-radius: 11px; min-height: 46px; }
-    .expense-share-card.preview .expense-share-day-card .day { font-size: 8px; }
-    .expense-share-card.preview .expense-share-day-card .amount { margin-top: 3px; font-size: 11px; }
-    .expense-share-card.preview .expense-share-day-card .meta { margin-top: 3px; font-size: 7px; }
-    .expense-share-card.preview .expense-share-split-list { gap: 5px; }
-    .expense-share-card.preview .expense-share-split-line { grid-template-columns: 1fr auto; padding: 8px 9px; border-radius: 11px; font-size: 8px; gap: 6px; }
-    .expense-share-card.preview .expense-share-split-line .amount { font-size: 9px; }
-    .expense-share-card.preview .expense-share-empty { padding: 14px 10px; font-size: 10px; border-radius: 12px; }
-    .expense-share-card.preview .expense-share-footer { font-size: 8px; }
+    .expense-share-card.preview .expense-share-cover {
+      padding: 25px 26px 22px;
+    }
+
+    .expense-share-card.preview .expense-share-cover::after {
+      right: 18px;
+      bottom: 8px;
+      font-size: 42px;
+    }
+
+    .expense-share-card.preview .expense-share-kicker {
+      padding: 5px 8px;
+      font-size: 10px;
+    }
+
+    .expense-share-card.preview .expense-share-title {
+      margin-top: 12px;
+      font-size: 27px;
+    }
+
+    .expense-share-card.preview .expense-share-subtitle {
+      margin-top: 8px;
+      font-size: 10px;
+    }
+
+    .expense-share-card.preview .expense-share-body {
+      padding: 17px 20px 21px;
+      gap: 12px;
+    }
+
+    .expense-share-card.preview .expense-share-section-title {
+      font-size: 10px;
+    }
+
+    .expense-share-card.preview .expense-share-pill {
+      padding: 4px 7px;
+      font-size: 8px;
+    }
+
+    .expense-share-card.preview .expense-share-hero-total {
+      gap: 4px;
+      padding: 11px 12px;
+      border-radius: 13px;
+    }
+
+    .expense-share-card.preview .expense-share-hero-total .label {
+      font-size: 8px;
+    }
+
+    .expense-share-card.preview .expense-share-hero-total .value {
+      font-size: 24px;
+    }
+
+    .expense-share-card.preview .expense-share-mini-grid {
+      gap: 7px;
+    }
+
+    .expense-share-card.preview .expense-share-mini {
+      padding: 8px;
+      border-radius: 11px;
+      min-height: 46px;
+    }
+
+    .expense-share-card.preview .expense-share-mini .label {
+      font-size: 7px;
+    }
+
+    .expense-share-card.preview .expense-share-mini .value {
+      margin-top: 3px;
+      font-size: 10px;
+    }
+
+    .expense-share-card.preview .expense-share-chart-grid {
+      grid-template-columns: 100px 1fr;
+      gap: 8px;
+      padding: 9px;
+      border-radius: 12px;
+    }
+
+    .expense-share-card.preview .expense-share-pie {
+      width: 82px;
+      height: 82px;
+      box-shadow: inset 0 0 0 6px rgba(255, 250, 242, .8), 0 5px 12px rgba(65, 50, 35, .08);
+    }
+
+    .expense-share-card.preview .expense-share-pie::after {
+      inset: 24px;
+    }
+
+    .expense-share-card.preview .expense-share-bars {
+      gap: 5px;
+    }
+
+    .expense-share-card.preview .expense-share-bar-label {
+      font-size: 8px;
+    }
+
+    .expense-share-card.preview .expense-share-track {
+      height: 5px;
+    }
+
+    .expense-share-card.preview .expense-share-day-grid {
+      gap: 6px;
+    }
+
+    .expense-share-card.preview .expense-share-day-card {
+      padding: 8px;
+      border-radius: 11px;
+      min-height: 46px;
+    }
+
+    .expense-share-card.preview .expense-share-day-card .day {
+      font-size: 8px;
+    }
+
+    .expense-share-card.preview .expense-share-day-card .amount {
+      margin-top: 3px;
+      font-size: 11px;
+    }
+
+    .expense-share-card.preview .expense-share-day-card .meta {
+      margin-top: 3px;
+      font-size: 7px;
+    }
+
+    .expense-share-card.preview .expense-share-split-list {
+      gap: 5px;
+    }
+
+    .expense-share-card.preview .expense-share-split-line {
+      grid-template-columns: 1fr auto;
+      padding: 8px 9px;
+      border-radius: 11px;
+      font-size: 8px;
+      gap: 6px;
+    }
+
+    .expense-share-card.preview .expense-share-split-line .amount {
+      font-size: 9px;
+    }
+
+    .expense-share-card.preview .expense-share-empty {
+      padding: 14px 10px;
+      font-size: 10px;
+      border-radius: 12px;
+    }
+
+    .expense-share-card.preview .expense-share-footer {
+      font-size: 8px;
+    }
 
 
 
@@ -3432,6 +3551,7 @@
     }
 
     @media (max-width: 520px) {
+
       .day-memory-actions,
       .day-memory-actions .btn {
         width: 100%;
@@ -3869,7 +3989,7 @@
       line-height: 1.15;
       font-weight: 950;
       letter-spacing: .5px;
-      text-shadow: 0 8px 22px rgba(0,0,0,.18);
+      text-shadow: 0 8px 22px rgba(0, 0, 0, .18);
     }
 
     .memory-pdf-auto-cover-sub {
@@ -3877,7 +3997,7 @@
       font-size: 23px;
       line-height: 1.45;
       font-weight: 850;
-      color: rgba(255,255,255,.86);
+      color: rgba(255, 255, 255, .86);
     }
 
     .memory-pdf-stat-grid {
@@ -4155,8 +4275,6 @@
       font-size: 20px;
       padding: 9px 14px;
     }
-
-
   </style>
 </head>
 
@@ -6056,7 +6174,7 @@ ${detail}`);
             </select></div>
           </div>
           <div class="field"><label>時間（選填）</label><input name="time" type="time" value="${item.time || ''}"></div>
-          <div class="field"><label>名稱</label><input name="name" required placeholder="例如：外灘、寒山寺、某某麵館" value="${escapeHtml(item.name || '')}"></div>
+          <div class="field"><label>名稱</label><input name="name" required placeholder="例如：某某風景區、某某咖啡店、某某麵館" value="${escapeHtml(item.name || '')}"></div>
           <div class="field"><label>地址／地圖連結／座標</label><input name="map" placeholder="可貼地圖連結、地址，或座標 121.4737,31.2304" value="${escapeHtml(item.map || '')}"></div>
           <p class="small">中國高德模式最穩的是座標。若只填店名，系統會使用高德關鍵字搜尋；若桌機版跳登入牆，建議補上座標。</p>
           <div class="field"><label>路線查詢關鍵字（選填）</label><input name="routeQuery" placeholder="可填精準店名或地址，例如：明洞、弘大入口站、飯店地址" value="${escapeHtml(item.routeQuery || '')}"></div>
@@ -7654,15 +7772,15 @@ ${detail}`);
             <div class="expense-share-pie" style="background:${getPieGradient(entries, total)}"></div>
             <div class="expense-share-bars">
               ${entries.slice(0, options.preview ? 5 : 8).map(([cat, val], index) => {
-                const pct = total ? Math.round(val / total * 100) : 0;
-                const width = Math.max(3, Math.round(val / max * 100));
-                return `
+          const pct = total ? Math.round(val / total * 100) : 0;
+          const width = Math.max(3, Math.round(val / max * 100));
+          return `
                   <div class="expense-share-bar-row">
                     <div class="expense-share-bar-label"><strong>${escapeHtml(cat)}</strong><span>${formatTwd(val)}｜${pct}%</span></div>
                     <div class="expense-share-track"><div class="expense-share-fill" style="width:${width}%; background:${palette[index % palette.length]}"></div></div>
                   </div>
                 `;
-              }).join('')}
+        }).join('')}
             </div>
           </div>
         `;
@@ -9455,7 +9573,7 @@ ${detail}`);
       st.dragging = true;
       st.lastX = event.clientX;
       st.lastY = event.clientY;
-      try { st.stage.setPointerCapture(event.pointerId); } catch (e) {}
+      try { st.stage.setPointerCapture(event.pointerId); } catch (e) { }
     }
 
     function moveMemoryCoverCropDrag(event) {
@@ -9473,7 +9591,7 @@ ${detail}`);
       const st = memoryCoverCropState;
       if (!st) return;
       st.dragging = false;
-      try { st.stage.releasePointerCapture(event.pointerId); } catch (e) {}
+      try { st.stage.releasePointerCapture(event.pointerId); } catch (e) { }
     }
 
     async function saveMemoryCoverCrop() {
